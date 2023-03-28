@@ -4,7 +4,7 @@ Theme author: Gabriel Nechifor
 */
 
 #site-container {
-    max-width: 1200px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -64,14 +64,24 @@ Theme author: Gabriel Nechifor
     text-align: center;
     border: solid 2px #336600;
     border-top: 0;
-    padding: 30px;
+    padding: 20px;
 }
 
 #site-header h1 {
     color: #336600;
     -webkit-text-stroke: 1px #000000;
-    font-size: 3.5em;
+    font-size: 1mm;
     margin: 0;
+}
+
+#content {
+    border-left: solid 2px #336600;
+    border-right: solid 2px #336600;
+}
+
+#content main {
+    width: 70%;
+    padding: 15px;
 }
 
 #site-footer {
@@ -80,3 +90,4 @@ Theme author: Gabriel Nechifor
     text-align: center;
     padding: 10px;
 }
+
