@@ -4,7 +4,7 @@ Theme author: Gabriel Nechifor
 */
 
 #site-container {
-    max-width: 800px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -57,31 +57,79 @@ Theme author: Gabriel Nechifor
     width: 100%;
 }
 
-/* Menu finished, now starting header */
 
 #side-header {
     background: url('banner.jpg');
     text-align: center;
     border: solid 2px #336600;
     border-top: 0;
-    padding: 20px;
+    padding: 30px;
 }
 
 #site-header h1 {
     color: #336600;
     -webkit-text-stroke: 1px #000000;
-    font-size: 1mm;
+    font-size: 3.5em;
     margin: 0;
 }
 
 #content {
     border-left: solid 2px #336600;
     border-right: solid 2px #336600;
+    display: flex;
 }
 
 #content main {
     width: 70%;
     padding: 15px;
+}
+
+#content main a {
+    text-decoration: none;
+    color: #33cc33;
+    font-weight: bold;
+}
+
+#content main h1, #content main h2 {
+    margin: 0;
+}
+#content main h1 a, #content main h2 a {
+    color: #000000;
+}
+
+#content main .date-category {
+    margin-top: 0;
+    color: #56f307;
+}
+
+#cotent main article {
+    border-bottom: 2px dashed #808080;
+    margin-bottom: 10px;
+}
+
+#content main article:last-child {
+    border: none;
+}
+
+#content #sidebar {
+    width: 30%;
+    padding: 10px;
+}
+
+#content #sidebar h1, #sidebar h2 {
+    background-color: #33cc33;
+    color: #336600;
+    padding: 10px;
+    font-size: 1.25em;
+}
+
+#content #sidebar > div:first-child > h1, #content #sidebar > div:first-child > h2 {
+    margin-top: 5px;
+}
+
+#content #sidebar a {
+    color: #33cc33;
+    text-decoration:none;
 }
 
 #site-footer {
