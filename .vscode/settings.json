@@ -1,0 +1,4 @@
+{
+    "intelephense.diagnostics.duplicateSymbols": true,
+    "intelephense.diagnostics.undefinedSymbols": false
+}
